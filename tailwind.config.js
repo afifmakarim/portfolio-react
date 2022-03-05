@@ -29,14 +29,14 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
-      backgroundImage: {
-        "hero-pattern":
-          "linear-gradient(to right bottom, rgba(35 33 41 / 50%), rgba(35, 33, 41 , 0.9)),  url('../../public/static/pexels-negative-space-34153.jpg')",
-        "github-pattern":
-          "linear-gradient(to right bottom, rgba(35 33 41 / 50%), rgba(35, 33, 41 , 0.9)),  url('../../public/static/pexels-bich-tran-669996.jpg')",
-        "trakteer-pattern":
-          "linear-gradient(to right bottom, rgba(35 33 41 / 50%), rgba(35, 33, 41 , 0.9)),  url('../../public/static/pexels-miguel-á-padriñán-932261.jpg')",
-      },
+      // backgroundImage: {
+      //   "hero-pattern":
+      //     "linear-gradient(to right bottom, rgba(35 33 41 / 50%), rgba(35, 33, 41 , 0.9)),  url('../../public/static/pexels-negative-space-34153.jpg')",
+      //   "github-pattern":
+      //     "linear-gradient(to right bottom, rgba(35 33 41 / 50%), rgba(35, 33, 41 , 0.9)),  url('../../public/static/pexels-bich-tran-669996.jpg')",
+      //   "trakteer-pattern":
+      //     "linear-gradient(to right bottom, rgba(35 33 41 / 50%), rgba(35, 33, 41 , 0.9)),  url('../../public/static/pexels-miguel-á-padriñán-932261.jpg')",
+      // },
     },
   },
   plugins: [],

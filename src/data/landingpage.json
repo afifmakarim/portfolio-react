@@ -1,0 +1,92 @@
+{
+    "name": "Afif",
+    "skills": [
+      {
+        "name": "HTML & CSS",
+        "level": "Advance"
+      },
+      {
+        "name": "PHP",
+        "level": "Intermediate"
+      },
+      {
+        "name": "nodeJS",
+        "level": "Intermediate"
+      },
+      {
+        "name": "ReactJS",
+        "level": "Intermediate"
+      },
+      {
+        "name": "React Native",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Figma",
+        "level": "Beginner"
+      },
+      {
+        "name": "MySQL",
+        "level": "Intermediate"
+      },
+      {
+        "name": "MongoDB",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Postman",
+        "level": "Advance"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Budayaku",
+        "platform": "web",
+        "framework": "CodeIgniter",
+        "imageUrl": "./static/budayaku.jpg",
+        "url":"https://github.com/afifmakarim/web-budayaku-code-igniter"
+      },
+      {
+        "name": "Suikoden Guide",
+        "platform": "Android Apps",
+        "framework": "Ionic",
+        "imageUrl": "./static/suikoden-guide.jpg",
+        "url":"https://apkpure.com/suikoden-guide/io.rojofactory.suikoden"
+      },
+      {
+        "name": "Tamako BOT",
+        "platform": "LINE Messenger BOT",
+        "framework": "CodeIgniter",
+        "imageUrl": "./static/tamako-bot.jpg",
+        "url":"https://line.me/R/ti/p/%40xxs7002u"
+      },
+      {
+        "name": "StayCation",
+        "platform": "web",
+        "framework": "ReactJS/NodeJS",
+        "imageUrl": "./static/staycation.jpg",
+        "url":"https://github.com/afifmakarim/bwamern"
+      },
+      {
+        "name": "Restaurant App",
+        "platform": "PWA",
+        "framework": "Native",
+        "imageUrl": "./static/resto-app.jpg",
+        "url":"https://github.com/afifmakarim/restaurant-pwa"
+      }
+    ],
+    "experience": [
+      {
+        "name": "PT. Astra Graphia Information Technology",
+        "startDate": "Februari 2019",
+        "endDate": "Februari 2020",
+        "role": "PHP Programmer"
+      },
+      {
+        "name": "PT. Fintek Karya Nusantara",
+        "startDate": "Februari 2020",
+        "endDate": "Present",
+        "role": "BAU Integration Associate"
+      }
+    ]
+  }

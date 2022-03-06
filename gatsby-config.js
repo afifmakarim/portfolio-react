@@ -2,8 +2,8 @@ const path = require(`path`);
 
 module.exports = {
   siteMetadata: {
-    title: `new`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `Afif Makarim Portfolio`,
+    siteUrl: `https://www.afif.rojoinferno.com`,
   },
   plugins: [
     "gatsby-plugin-postcss",

@@ -1,6 +1,6 @@
 import * as React from "react";
 import Datas from "../data/landingpage.json";
-// import imagePath from "../images/projects/";
+// import imagePath from "./";
 
 const ExpPage = () => {
   return (
@@ -10,7 +10,10 @@ const ExpPage = () => {
       </div>
       <div className="wrap flex flex-col gap-6 text-white justify-center">
         {Datas.experience.map((item) => (
-          <div className="institution flex flex-col items-center">
+          <div
+            key={item.name}
+            className="institution flex flex-col items-center"
+          >
             <h1 className="text-2xl sm:text-lg">{item.name}</h1>
             <p className="text-sm font-light">
               {item.role} ({item.startDate} - {item.endDate})

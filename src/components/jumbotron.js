@@ -17,13 +17,13 @@ const Jumbotron = () => {
         </p>
         <a
           href="#projects"
-          class="drop-shadow-xl bg-orange hover:bg-gray text-white py-2 px-10 rounded"
+          className="drop-shadow-xl bg-orange hover:bg-gray text-white py-2 px-10 rounded"
         >
           Learn More
         </a>
       </div>
       <div className="figura order-first">
-        <img src={Figura} alt="" srcset="" />
+        <img src={Figura} alt="Afif Makarim" />
       </div>
     </div>
   );

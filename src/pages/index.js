@@ -6,6 +6,8 @@ import SkillPage from "../components/skillPage";
 import ProjectPage from "../components/ProjectPage";
 import ExpPage from "../components/expPage";
 import FooterPage from "../components/footerPage";
+import Fade from "react-reveal/Fade";
+import Reveal from "react-reveal/Reveal";
 
 const Home = () => {
   return (
@@ -13,9 +15,15 @@ const Home = () => {
       {" "}
       <LayoutPage>
         <NavbarPage />
-        <Jumbotron />
-        <SkillPage />
-        <ProjectPage />
+        <Fade left>
+          <Jumbotron />
+        </Fade>
+        <Fade bottom>
+          <SkillPage />
+        </Fade>
+        <Fade bottom>
+          <ProjectPage />
+        </Fade>
         <ExpPage />
         <FooterPage />
       </LayoutPage>
